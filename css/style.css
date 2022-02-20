@@ -1,0 +1,173 @@
+/*ESTILOS PREDEFINIDOS PARA LA PAGINA WEB QUE SE APLICAN EN TODA ELLA*/
+@font-face
+{
+  font-family: 'TituloSecciones';
+  src: url('../fonts/harryp.TTF');
+}
+
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+/* VARIABLES DE COLOR */
+
+:root 
+{
+  --lila:#56459b;
+}
+
+
+
+/* Predefinido BOTON SECCIONES */
+
+.btnSecciones
+{
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--lila);
+  padding: 15px 25px 15px 25px;
+  font-size: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 90px;
+}
+
+/*Predefinido TITULO DE SECCIONES*/
+
+.tituloSeccion
+{
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'TituloSecciones';
+}
+
+
+/* Predefinido FOOTER */
+
+.seccionFooter .py-5
+{
+
+  display: flex;
+  align-items: center;
+}
+
+.redes
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccionFooter
+{
+  background-color: lightskyblue;
+  padding: 0px 50px;
+}
+
+.seccionFooter .my-5 {
+  margin-top: 0rem!important;
+  margin-bottom: 0rem!important;
+}
+
+
+
+/* Predefinido NAV */
+
+ 
+.logoHeader
+{
+
+  margin-right: 35px;
+}
+
+
+.carousel
+{
+  margin: 0 !important;
+}
+
+.carousel-item {
+    height: 40rem !important;
+}
+
+.carousel-caption 
+{
+    padding-bottom: 11.25rem;
+
+}
+
+.btn-group-lg>.btn, .btn-lg
+{
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--lila);
+  padding: 15px 25px 15px 25px;
+  font-size: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.heroImage .btn-primary 
+{
+  border-color:var(--lila) ;
+}
+
+.nav-link:hover
+{
+  color: red !important;
+}
+
+/* Predefinido ZONA DE PATROCINADORES */
+
+.contPatro
+{
+display: flex;
+margin: 0px 50px;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 200px;
+}
+
+.textPatro h1
+{
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.btnPatro
+{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--lila);
+  padding: 15px 25px 15px 25px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: 90px;
+}
+
+
